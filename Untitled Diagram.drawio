@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T12:47:10.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 OPR/74.0.3911.107" etag="Iwlxtx-2KNbKkBn7M_Eb" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-16T12:53:36.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 OPR/74.0.3911.107" etag="j7ur4Jj5gTO59EXCdCYO" version="14.3.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1382" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -68,10 +68,16 @@
           <mxGeometry y="30" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="CGG7622qUOH1zf8zBnxl-10" value="dds.hub_user" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="300" y="380" width="160" height="90" as="geometry" />
+          <mxGeometry x="300" y="390" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="CGG7622qUOH1zf8zBnxl-11" value="user_id bigint&#xa;account varchar&#xa;phone bigint&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="CGG7622qUOH1zf8zBnxl-10">
+        <mxCell id="CGG7622qUOH1zf8zBnxl-11" value="user_id bigint&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="CGG7622qUOH1zf8zBnxl-10">
           <mxGeometry y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CGG7622qUOH1zf8zBnxl-12" value="dds.sat_user" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="530" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CGG7622qUOH1zf8zBnxl-13" value="user_id bigint&#xa;account varchar&#xa;phone bigint&#xa;created_at timestamp&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" vertex="1" parent="CGG7622qUOH1zf8zBnxl-12">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
