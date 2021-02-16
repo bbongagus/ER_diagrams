@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T12:33:46.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 OPR/74.0.3911.107" etag="AP4xTU6USHxX0HtCXpIR" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-16T12:38:36.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 OPR/74.0.3911.107" etag="nxeU4owwj_TM79c9Bqpz" version="14.3.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1382" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="7S4udObnOnSQ2FF6pkTF-17" value="ods.payments" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="40" y="140" width="160" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="7S4udObnOnSQ2FF6pkTF-18" value="user_id bigint&#xa;pay_doc_type varchar&#xa;pay_doc_num bigint&#xa;account varchar&#xa;phone bigint&#xa;billing_period datetime&#xa;pay_date timestamp&#xa;chrg_amt float&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="7S4udObnOnSQ2FF6pkTF-17" vertex="1">
+        <mxCell id="7S4udObnOnSQ2FF6pkTF-18" value="user_id bigint&#xa;pay_doc_type varchar&#xa;pay_doc_num bigint&#xa;account varchar&#xa;phone bigint&#xa;billing_period date&#xa;pay_date timestamp&#xa;payment_amt float&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="7S4udObnOnSQ2FF6pkTF-17" vertex="1">
           <mxGeometry y="30" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="CGG7622qUOH1zf8zBnxl-1" value="ods.trafik" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
@@ -49,13 +49,13 @@
         <mxCell id="CGG7622qUOH1zf8zBnxl-3" value="ods.charges" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="470" y="140" width="160" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="CGG7622qUOH1zf8zBnxl-4" value="user_id bigint&#xa;billing_period varchar&#xa;service varchar&#xa;tariff varchar&#xa;sum float&#xa;created_at" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="CGG7622qUOH1zf8zBnxl-3">
+        <mxCell id="CGG7622qUOH1zf8zBnxl-4" value="user_id bigint&#xa;billing_period date&#xa;service varchar&#xa;tariff varchar&#xa;chrg_amt float&#xa;created_at timestamp" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="CGG7622qUOH1zf8zBnxl-3">
           <mxGeometry y="30" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="CGG7622qUOH1zf8zBnxl-5" value="ods.intrxn" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="680" y="140" width="160" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="CGG7622qUOH1zf8zBnxl-6" value="user_id number&#xa;start_time datetime&#xa;end_time datetime&#xa;title varchar&#xa;description text" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="CGG7622qUOH1zf8zBnxl-5">
+        <mxCell id="CGG7622qUOH1zf8zBnxl-6" value="user_id bigint&#xa;start_time datetime&#xa;end_time datetime&#xa;title varchar&#xa;description text" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="CGG7622qUOH1zf8zBnxl-5">
           <mxGeometry y="30" width="160" height="140" as="geometry" />
         </mxCell>
       </root>
